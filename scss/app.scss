@@ -1,0 +1,10 @@
+ /* OVERALL */
+ @import '_reset', '_mixins';
+ /* HEADER */
+ @import '_header';
+ /* HEADER */
+ @import '_main';
+ 
+ body{
+     background-color: white;
+ }

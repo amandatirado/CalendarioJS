@@ -1,0 +1,28 @@
+@import '_mixins';
+.header{
+    background-color: 	#ccddff;
+    &__wrapper{
+        width: 90%;
+        margin: auto;
+        @include flexible (row, nowrap, space-between, center);
+        padding: 2rem 0;
+    }
+    &__title{
+        color: 	white;
+        // background-color: antiquewhite;
+    }
+    &__h1{
+        font-size: 2.5rem;
+        margin-bottom: .8rem;
+    }
+    &__h2{
+        // background-color: antiquewhite;
+        font-size: 2.6rem;
+        margin-left: .1rem;
+    }
+    &__span{
+        color: white;
+        font-size: 5rem;
+        // background-color: antiquewhite;
+    }
+}
